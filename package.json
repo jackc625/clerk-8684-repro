@@ -1,0 +1,24 @@
+{
+  "name": "clerk-8684-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Minimal reproduction for clerk/javascript#8684 — prebuilt <SignUp/> sends two email_code verification emails per sign-up.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@clerk/react": "^6.11.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  }
+}
